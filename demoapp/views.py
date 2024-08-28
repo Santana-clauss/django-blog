@@ -6,7 +6,7 @@ def homepage(request):
     content = """
     <html>
         <head>
-            <title>My Blog</title>
+            <title>Welcome to My Blog</title>
             <style>
                 body {
                     font-family: Arial, sans-serif;
@@ -18,8 +18,9 @@ def homepage(request):
                 header {
                     background-color: #333;
                     color: #fff;
-                    padding: 10px 20px;
+                    padding: 15px 20px;
                     text-align: center;
+                    font-size: 2em;
                 }
                 .container {
                     width: 80%;
@@ -31,15 +32,15 @@ def homepage(request):
                 }
                 .content {
                     background: #fff;
-                    padding: 20px;
-                    border-radius: 5px;
-                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    padding: 25px;
+                    border-radius: 8px;
+                    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
                 }
                 footer {
                     background-color: #333;
                     color: #fff;
                     text-align: center;
-                    padding: 10px;
+                    padding: 15px;
                     position: fixed;
                     width: 100%;
                     bottom: 0;
@@ -55,17 +56,17 @@ def homepage(request):
         </head>
         <body>
             <header>
-                <h1>Welcome to My Blog</h1>
+                <h1>Welcome to My Blog!</h1>
             </header>
             <div class="container">
                 <div class="content">
                     <h2>About This Blog</h2>
-                    <p>This is the homepage of my blog where I share my thoughts, experiences, and insights on various topics.</p>
-                    <p>Feel free to explore and <a href="#">subscribe</a> for updates!</p>
+                    <p>Hi there! I'm thrilled to have you here. This blog is a place where I pour out my thoughts, share my experiences, and delve into various intriguing topics that I’m passionate about. Whether it's a deep dive into tech trends, personal anecdotes, or just musings on life, you’ll find it here.</p>
+                    <p>Stay tuned and feel free to <a href="#">subscribe</a> for the latest updates. Your support means the world to me!</p>
                 </div>
             </div>
             <footer>
-                <p>&copy; 2024 My Blog. All rights reserved.</p>
+                <p>&copy; 2024 CLAUSS sANTIE. All rights reserved. Designed .</p>
             </footer>
         </body>
     </html>
